@@ -1,0 +1,393 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "name": "Admin",
+      "password": "pass",
+      "isAdmin": true,
+      "department": "Administrative"
+    },
+    {
+      "id": 2,
+      "username": "andrew",
+      "name": "Andrew",
+      "password": "pass",
+      "isAdmin": false,
+      "department": "Human Resources"
+    },
+    {
+      "id": 2,
+      "username": "daniel",
+      "name": "Daniel",
+      "password": "pass",
+      "isAdmin": false,
+      "department": "Accounting"
+    }
+  ],
+  "register": [
+    {
+      "id": 0,
+      "registered": "2016-07-28",
+      "name": "Aileen Hanson",
+      "company": "MAGNEMO",
+      "address": "520 Nassau Avenue, Leola, North Dakota, 6578",
+      "about": "laboris do non qui",
+      "department": "Administrative",
+      "worker": "",
+      "solved": false
+    },
+    {
+      "id": 1,
+      "registered": "2020-02-25",
+      "name": "Roslyn Santiago",
+      "company": "WATERBABY",
+      "address": "169 Bergen Street, Floris, Virginia, 1292",
+      "about": "cupidatat amet ad magna",
+      "department": "Human Resources",
+      "worker": "",
+      "solved": false
+    },
+    {
+      "id": 2,
+      "registered": "2019-05-15",
+      "name": "Jerri Perry",
+      "company": "GLOBOIL",
+      "address": "410 Bevy Court, Wheaton, South Dakota, 5332",
+      "about": "pariatur occaecat labore veniam",
+      "department": "Accounting",
+      "worker": "",
+      "solved": false
+    },
+    {
+      "id": 3,
+      "registered": "2015-08-08",
+      "name": "Valdez Kemp",
+      "company": "LYRIA",
+      "address": "214 Glenmore Avenue, Hayes, Kentucky, 7032",
+      "about": "dolore esse ipsum id",
+      "department": "Administrative",
+      "worker": "Admin",
+      "solved": true
+    },
+    {
+      "id": 4,
+      "registered": "2018-08-31",
+      "name": "Berta Cummings",
+      "company": "AUSTEX",
+      "address": "502 Allen Avenue, Wattsville, Arizona, 3586",
+      "about": "officia Lorem amet sunt",
+      "department": "Human Resources",
+      "worker": "Andrew",
+      "solved": false
+    },
+    {
+      "id": 5,
+      "registered": "2016-12-11",
+      "name": "Cross Cleveland",
+      "company": "DYMI",
+      "address": "889 Hopkins Street, Rosburg, Connecticut, 4029",
+      "about": "pariatur quis laborum ad",
+      "department": "Accounting",
+      "worker": "Daniel",
+      "solved": false
+    },
+    {
+      "id": 6,
+      "registered": "2018-08-03",
+      "name": "Marshall Collier",
+      "company": "ASSURITY",
+      "address": "109 Junius Street, Deseret, Alabama, 4961",
+      "about": "amet sunt esse laboris",
+      "department": "Administrative",
+      "worker": "",
+      "solved": false
+    },
+    {
+      "id": 7,
+      "registered": "2021-01-21",
+      "name": "Irene Cruz",
+      "company": "INSURON",
+      "address": "639 Aurelia Court, Deercroft, New Hampshire, 3554",
+      "about": "id mollit qui sit",
+      "department": "Human Resources",
+      "worker": "",
+      "solved": false
+    },
+    {
+      "id": 8,
+      "registered": "2021-08-13",
+      "name": "Lorrie Bernard",
+      "company": "ZYTREX",
+      "address": "622 Alton Place, Adamstown, Marshall Islands, 1283",
+      "about": "sint anim voluptate excepteur",
+      "department": "Accounting",
+      "worker": "",
+      "solved": false
+    },
+    {
+      "id": 9,
+      "registered": "2020-11-08",
+      "name": "Sherman Le",
+      "company": "BOVIS",
+      "address": "369 Clifton Place, Kula, Vermont, 2501",
+      "about": "adipisicing aute id do",
+      "department": "Administrative",
+      "worker": "",
+      "solved": false
+    },
+    {
+      "id": 10,
+      "registered": "2019-01-29",
+      "name": "Nellie Hoffman",
+      "company": "STEELFAB",
+      "address": "291 Cyrus Avenue, Worcester, Northern Mariana Islands, 7755",
+      "about": "ad ipsum fugiat ex",
+      "department": "Human Resources",
+      "worker": "",
+      "solved": false
+    },
+    {
+      "id": 11,
+      "registered": "2014-04-25",
+      "name": "Luann Gill",
+      "company": "EXOSPEED",
+      "address": "626 Erskine Loop, Glenville, American Samoa, 3616",
+      "about": "irure reprehenderit nulla velit",
+      "department": "Accounting",
+      "worker": "",
+      "solved": false
+    },
+    {
+      "id": 12,
+      "registered": "2020-02-07",
+      "name": "Adams Mcdaniel",
+      "company": "ZOUNDS",
+      "address": "859 Bergen Place, Starks, Hawaii, 5736",
+      "about": "dolore laborum ullamco exercitation",
+      "department": "Administrative",
+      "worker": "Admin",
+      "solved": false
+    },
+    {
+      "id": 13,
+      "registered": "2020-05-07",
+      "name": "Maricela Murray",
+      "company": "COMFIRM",
+      "address": "145 Fairview Place, Coventry, Louisiana, 1445",
+      "about": "ex eiusmod irure pariatur",
+      "department": "Human Resources",
+      "worker": "",
+      "solved": false
+    },
+    {
+      "id": 14,
+      "registered": "2021-11-06",
+      "name": "Jami Fletcher",
+      "company": "VIASIA",
+      "address": "600 Crooke Avenue, Edneyville, Florida, 5272",
+      "about": "adipisicing non minim laborum",
+      "department": "Accounting",
+      "worker": "Daniel",
+      "solved": true
+    },
+    {
+      "id": 15,
+      "registered": "2021-06-22",
+      "name": "Lancaster Kirby",
+      "company": "TOYLETRY",
+      "address": "321 Bridgewater Street, Cannondale, Wisconsin, 7175",
+      "about": "fugiat ullamco et qui",
+      "department": "Administrative",
+      "worker": "",
+      "solved": false
+    },
+    {
+      "id": 16,
+      "registered": "2017-09-07",
+      "name": "Ingrid Griffith",
+      "company": "XANIDE",
+      "address": "194 Arkansas Drive, Wollochet, Michigan, 6192",
+      "about": "exercitation magna elit aliquip",
+      "department": "Human Resources",
+      "worker": "Andrew",
+      "solved": true
+    },
+    {
+      "id": 17,
+      "registered": "2021-08-29",
+      "name": "Silvia Reilly",
+      "company": "BRISTO",
+      "address": "881 Colin Place, Topanga, South Carolina, 6279",
+      "about": "voluptate voluptate quis elit",
+      "department": "Accounting",
+      "worker": "",
+      "solved": false
+    },
+    {
+      "id": 18,
+      "registered": "2014-05-14",
+      "name": "Callie Dawson",
+      "company": "DAISU",
+      "address": "888 Mill Lane, Southview, Arkansas, 7960",
+      "about": "magna dolore fugiat aliquip",
+      "department": "Administrative",
+      "worker": "Admin",
+      "solved": false
+    },
+    {
+      "id": 19,
+      "registered": "2015-07-27",
+      "name": "Dee Dennis",
+      "company": "ZOLAVO",
+      "address": "923 Chester Street, Williams, New Mexico, 764",
+      "about": "nisi ad do eu",
+      "department": "Human Resources",
+      "worker": "",
+      "solved": false
+    },
+    {
+      "id": 20,
+      "registered": "2014-12-19",
+      "name": "Maryanne Randolph",
+      "company": "BUGSALL",
+      "address": "556 Pilling Street, Boykin, American Samoa, 802",
+      "about": "eiusmod reprehenderit cillum proident",
+      "department": "Accounting",
+      "worker": "",
+      "solved": false
+    },
+    {
+      "id": 21,
+      "registered": "2016-07-28",
+      "name": "Aileen Hanson",
+      "company": "MAGNEMO",
+      "address": "520 Nassau Avenue, Leola, North Dakota, 6578",
+      "about": "laboris do non qui",
+      "department": "Administrative",
+      "worker": "",
+      "solved": false
+    },
+    {
+      "id": 22,
+      "registered": "2020-02-25",
+      "name": "Roslyn Santiago",
+      "company": "WATERBABY",
+      "address": "169 Bergen Street, Floris, Virginia, 1292",
+      "about": "cupidatat amet ad magna",
+      "department": "Human Resources",
+      "worker": "",
+      "solved": false
+    },
+    {
+      "id": 23,
+      "registered": "2019-05-15",
+      "name": "Jerri Perry",
+      "company": "GLOBOIL",
+      "address": "410 Bevy Court, Wheaton, South Dakota, 5332",
+      "about": "pariatur occaecat labore veniam",
+      "department": "Accounting",
+      "worker": "Daniel",
+      "solved": false
+    },
+    {
+      "id": 24,
+      "registered": "2015-08-08",
+      "name": "Valdez Kemp",
+      "company": "LYRIA",
+      "address": "214 Glenmore Avenue, Hayes, Kentucky, 7032",
+      "about": "dolore esse ipsum id",
+      "department": "Administrative",
+      "worker": "",
+      "solved": false
+    },
+    {
+      "id": 25,
+      "registered": "2018-08-31",
+      "name": "Berta Cummings",
+      "company": "AUSTEX",
+      "address": "502 Allen Avenue, Wattsville, Arizona, 3586",
+      "about": "officia Lorem amet sunt",
+      "department": "Human Resources",
+      "worker": "Andrew",
+      "solved": false
+    },
+    {
+      "id": 26,
+      "registered": "2016-12-11",
+      "name": "Cross Cleveland",
+      "company": "DYMI",
+      "address": "889 Hopkins Street, Rosburg, Connecticut, 4029",
+      "about": "pariatur quis laborum ad",
+      "department": "Accounting",
+      "worker": "",
+      "solved": false
+    },
+    {
+      "id": 27,
+      "registered": "2018-08-03",
+      "name": "Marshall Collier",
+      "company": "ASSURITY",
+      "address": "109 Junius Street, Deseret, Alabama, 4961",
+      "about": "amet sunt esse laboris",
+      "department": "Administrative",
+      "worker": "",
+      "solved": false
+    },
+    {
+      "id": 28,
+      "registered": "2021-01-21",
+      "name": "Irene Cruz",
+      "company": "INSURON",
+      "address": "639 Aurelia Court, Deercroft, New Hampshire, 3554",
+      "about": "id mollit qui sit",
+      "department": "Human Resources",
+      "worker": "Andrew",
+      "solved": false
+    },
+    {
+      "id": 29,
+      "registered": "2021-08-13",
+      "name": "Lorrie Bernard",
+      "company": "ZYTREX",
+      "address": "622 Alton Place, Adamstown, Marshall Islands, 1283",
+      "about": "sint anim voluptate excepteur",
+      "department": "Accounting",
+      "worker": "Daniel",
+      "solved": false
+    },
+    {
+      "id": 30,
+      "registered": "2020-11-08",
+      "name": "Sherman Le",
+      "company": "BOVIS",
+      "address": "369 Clifton Place, Kula, Vermont, 2501",
+      "about": "adipisicing aute id do",
+      "department": "Administrative",
+      "worker": "Admin",
+      "solved": false
+    },
+    {
+      "id": 31,
+      "registered": "2019-01-29",
+      "name": "Nellie Hoffman",
+      "company": "STEELFAB",
+      "address": "291 Cyrus Avenue, Worcester, Northern Mariana Islands, 7755",
+      "about": "ad ipsum fugiat ex",
+      "department": "Human Resources",
+      "worker": "",
+      "solved": false
+    },
+    {
+      "registered": "2022-01-10",
+      "name": "test",
+      "company": "test",
+      "address": "test",
+      "about": "test",
+      "department": "Administrative",
+      "worker": "",
+      "solved": false,
+      "id": 32
+    }
+  ]
+}

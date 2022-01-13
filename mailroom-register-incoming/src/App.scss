@@ -1,0 +1,156 @@
+$background: #002229;
+$accent: rgba(7, 172, 230, .16);
+$highlight: #ffffff;
+$shadow: #55DFB4;
+$tint-warm: #430054;
+$tint-cold: #216477 ;
+
+@mixin neumorphism {
+  border-radius: 10px;
+  box-shadow:  8px 8px 10px rgba($background, 0.35),
+              -8px -8px 10px rgba($highlight, 0.35),
+              0px 0px 15px rgba($tint-warm, 0.35);
+}
+@mixin neumorphism-inset {
+  border-radius: 10px;
+  box-shadow: inset 8px 8px 10px rgba($background, 0.35),
+              inset -8px -8px 10px rgba($highlight, 0.35),
+              inset 0px 0px 15px rgba($tint-cold, 0.35);
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+
+body {
+  background-color:gray;
+}
+
+.App {
+   width: 85%;
+   display: flex;
+   flex-flow: column;
+    height: 100%;
+    margin: 20px auto;
+     border-radius: 5px;
+     padding: 20px;
+     background: linear-gradient(-45deg, rgba(171,168,169,1) 0%, rgba(190,193,195,1) 100%);
+     @include neumorphism;
+ }
+
+.header {
+  display:flex;
+  align-items: center;
+  width: 85%;
+  margin: 0 auto;
+}
+
+table {
+  font-family: Helvetica, arial, sans-serif;
+  display: block;
+  width: 98%;
+  height: 65vh;
+  overflow-y: auto;
+  margin: 0 auto;
+  border-collapse: separate;
+  border-spacing: 0px 15px ;
+  tr {
+      @include neumorphism-inset;
+      td, th {
+        text-align: center;
+        width: 5%;
+        padding: 8px 0;
+      }
+  }
+    thead tr {
+        background: linear-gradient(45deg, rgba(171,168,169,1) 0%, rgba(190,190,190,1) 100%);
+        position: sticky;
+        top: 0;
+        th {
+          color: $tint-warm /*#003d4a*/;
+          font-weight: bold;
+          text-shadow:   3px 3px 3px rgba($background, 0.35),
+                        -3px -3px 3px rgba($highlight, 0.35);
+        }
+    }
+}
+
+.dash-title-div {
+  display: flex;
+  justify-content: center;
+}
+ h1 {
+  color: silver;
+  background-color: $tint-warm;
+  width:85%;
+  padding: 20px;
+  text-align: center;
+  @include neumorphism;
+  text-shadow:  3px 3px 3px rgba($background, 0.35),
+                -3px -3px 3px rgba($highlight, 0.35);
+ }
+
+p{
+  text-align: center;
+}
+button {
+  margin: 0 auto;
+  border-radius: 5px;
+  @include neumorphism;
+}
+
+.Menu {
+  a {
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    padding: 14px 20px;
+    margin: 10px ;
+    @include neumorphism;
+  }
+
+  a.active {
+    @include neumorphism-inset;
+    color: black;
+  }
+}
+
+
+button {
+  background: linear-gradient(145deg, rgba(183,223,56,1) 25%, rgba(217,255,66,1) 85%);
+  color: black;
+  padding: 14px 20px;
+  margin: 0px;
+  border: none;
+  cursor: pointer;
+  width: 80%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+
+.add-form{
+
+  .AddEntryForm {
+    display: inline-block;
+    margin: 0 auto;
+      input {
+        background-color: silver;
+        @include neumorphism-inset;
+      }
+      select {
+          border-radius: 5px;
+          background-color: silver;
+          @include neumorphism-inset;
+          padding: 10px 0;
+    }
+  }
+}
